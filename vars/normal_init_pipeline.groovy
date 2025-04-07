@@ -140,7 +140,7 @@ pipeline {
                             sonar-scanner \
                             -Dsonar.projectName=BoardGame \
                             -Dsonar.projectKey=BoardGame \
-                            -Dsonar.host.url=http://34.131.163.91:9000 \
+                            -Dsonar.host.url=http://34.131.31.192:9000 \
                             -Dsonar.login=$SONAR_TOKEN \
                             -Dsonar.java.binaries=.
                             '''
